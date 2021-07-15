@@ -1,5 +1,7 @@
 # Chapter 11: Regression
 ## Data-Driven Modeling of Numerical Relationships in Tourism
-***[Ulrich Bodenhofer](https://github.com/Ubod)*** & ***[Andreas Stöckl](https://github.com/astoeckl)***
+***[Andreas Stöckl](https://github.com/astoeckl)*** & ***[Ulrich Bodenhofer](https://github.com/Ubod)***
 
-School of Informatics, Communications and Media / University of Applied Sciences Hagenberg
+### Abstract
+
+Regression is the task of calculating a numerical value based on an object’s set of characteristics. One important sub-branch consists of methods that learn regression functions from example data. The following chapter will provide an overview of the most basic concepts and methods of this type of data-driven regression. While we refer to the previous chapter regarding the most basic principles of supervised machine learning, here we will introduce measures of regression performance that are necessary to direct data-driven training of regression functions and/or to evaluate regression results. Regarding regression methods, we will concentrate on linear regression, regression trees and ensemble variants thereof, support vector regression, and artificial neural networks. These concepts and methods will then be applied to a tourism-related case, demonstrating the practical implementation of such, using Python and the machine learning framework scikit-learn. The use case will exemplify how to model the prediction of the total sum of bookings for a hotel based on web tracking data. Predictions with linear regression, support vector regression, decision trees, random forests, and neural networks will be calculated and evaluated.
