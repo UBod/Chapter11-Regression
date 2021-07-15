@@ -8,7 +8,7 @@ Regression is the task of calculating a numerical value based on an object’s s
 
 ### Environment Setup
 
-The notebook was created using `Python 3.8.10`. You need the following packages: `pandas', `numpy', `sklearn', `plotly', `matplotlib', and `xgboost'. Additionally, you need a properly configured IPython kernel. 
+The notebook was created using `Python 3.8.10`. You need the following packages: `pandas`, `numpy`, `sklearn`, `plotly`, `matplotlib`, and `xgboost`. Additionally, you need a properly configured IPython kernel. 
 
 On a Windows system with Python 3, we recommend performing the following steps upon cloning the repository:
 ```bash
