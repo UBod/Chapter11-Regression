@@ -12,23 +12,47 @@ The notebook was created using `Python 3.8.10`. You need the following packages:
 
 On a Windows system with Python 3, we recommend performing the following steps upon cloning the repository:
 ```bash
-# create a new Python environment and activate it.
+## create a new Python environment and activate it
 python -m venv .env
 .env\Scripts\activate
+
+## install packages
 pip install ipykernel jupyter pandas numpy plotly sklearn matplotlib xgboost
+
+## build IPython kernel
 python -m ipykernel install --user --name .env --display-name "Python (Data Science in Tourism)"
 
-# now you can start a Jupyter session
+## now you can start a Jupyter session
 jupyter notebook
 ```
 
 On a Linux/Mac OS system with Python 3, we recommend performing the following steps upon cloning the repository:
 ```bash
-# create a new Python environment and activate it.
+# create a new Python environment and activate it
 python3 -m venv .env
 source .env/bin/activate
+
+## install packages
 pip install ipykernel jupyter pandas numpy plotly sklearn matplotlib xgboost
+
+## build IPython kernel
 python -m ipykernel install --user --name .env --display-name "Python (Data Science in Tourism)"
+
+## now you can start a Jupyter session
+jupyter notebook
+```
+
+If you are using [Anaconda](https://www.anaconda.com/), we recommend performing the following steps upon cloning the repository (replace environment name `DSIT` as you like):
+```bash
+## create a new Anaconda environment and activate it
+conda create -n DSIT
+conda activate DSIT
+
+## install packages
+conda install -n DSIT ipykernel jupyter pandas numpy plotly sklearn matplotlib xgboost
+
+## build IPython kernel
+python -m ipykernel install --user --name DSIT --display-name "Python (Data Science in Tourism)"
 
 # now you can start a Jupyter session
 jupyter notebook
