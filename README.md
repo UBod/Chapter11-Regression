@@ -1,5 +1,8 @@
 # Chapter 11: Regression
+
 ## Data-Driven Modeling of Numerical Relationships in Tourism
+## http://www.datascience-in-tourism.com/
+
 ***[Andreas Stöckl](https://github.com/astoeckl)*** & ***[Ulrich Bodenhofer](https://github.com/Ubod)***
 
 ### Abstract
